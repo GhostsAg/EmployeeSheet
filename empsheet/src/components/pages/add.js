@@ -1,10 +1,10 @@
 import React from "react";
+import EmpForm from "../newEmployee";
 
-
-// inputs for employee info
-function Add() {
-
-
+function Add(props) {
+    return (
+        <EmpForm />
+    );
 }
 
 export default Add;
