@@ -4,13 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const mongoose = require("mongoose");
-
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/emplist", {
-    useNewUrlParser: true,
-    useFindAndModify: false
-});
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

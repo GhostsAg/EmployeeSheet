@@ -1,5 +1,5 @@
 import React from "react";
-import Employee from "./employee";
+import Employee from "../employee";
 
 // const mongoose = require("mongoose");
 
